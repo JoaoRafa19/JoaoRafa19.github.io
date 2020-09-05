@@ -1,7 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
 
 .foto{
-    width: 50px;
+    width: 20%;
+    height: 20%;
+    border-radius: 90px;
 }
 
 body{
