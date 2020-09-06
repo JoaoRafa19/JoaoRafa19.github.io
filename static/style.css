@@ -1,12 +1,26 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
 
 .foto{
-    width: 20%;
-    height: 20%;
-    border-radius: 90px;
+    height: 190px;
+    width: 190px;
+    border: solid 5px;
+    border-radius: 90px 90px 90px 90px;
+}
+
+.icone{
+    align-content: center;
+}
+.icone-img{
+    width: 30px;
+    height: 30px;
+}
+.proj-img{
+   width: 300px;
 }
 
 body{
     font-family: 'Roboto', sans-serif;
     
 }
+
+
