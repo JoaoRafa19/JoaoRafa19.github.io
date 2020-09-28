@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
 
+html{
+    scroll-behavior: smooth;
+}
+
 .foto{
     height: 190px;
     width: 190px;
@@ -25,4 +29,9 @@ body{
 
 .projeto{
     border: solid 5px;
+}
+
+#projetos2{
+
+    align-content: center;
 }
