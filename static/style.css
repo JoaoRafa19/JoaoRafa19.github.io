@@ -55,6 +55,6 @@ body{
     display: none;
 }
 .hover:hover + .fotos-projeto div{
-    
+    transition: 1000ms;
     display: flex;
 }
