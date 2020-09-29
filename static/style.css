@@ -17,7 +17,16 @@ html{
 .icone-img{
     width: 30px;
     height: 30px;
+    border-radius: 90px 90px 90px 90px;
 }
+
+.icone-img:hover{
+    transition: 500ms;
+    width: 50px;
+    height: 50px;
+}
+
+
 .proj-img{
    width: 300px;
 }
@@ -35,4 +44,17 @@ body{
 #projetos2{
 
     align-content: center;
+}
+
+.dropmenu a:hover{
+
+    background-color: rgb(171, 183, 194);
+    
+}
+.fotos-projeto div{
+    display: none;
+}
+.hover:hover + .fotos-projeto div{
+    
+    display: flex;
 }
